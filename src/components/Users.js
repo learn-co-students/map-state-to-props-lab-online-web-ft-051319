@@ -10,7 +10,7 @@ class Users extends Component {
         <ul>
           {this.props.users.map(u => <li key={u.username} >{u.username}</li>)}
         </ul>
-        Total Users: {this.props.users.length}
+        Total Users: {this.props.userCount}
       </div>
     )
   }
